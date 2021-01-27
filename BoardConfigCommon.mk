@@ -21,6 +21,13 @@ DEVICE_PATH := device/samsung/j5-common
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Bootanimation
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+
+# HIDL
+DEVICE_MANIFEST_FILE += device/samsung/gprimelte-common/manifest.xml
+
 # Include
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
