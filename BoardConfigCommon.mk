@@ -26,7 +26,7 @@ TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 # HIDL
-DEVICE_MANIFEST_FILE += device/samsung/gprimelte-common/manifest.xml
+DEVICE_MANIFEST_FILE += device/samsung/j5-common/manifest.xml
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
